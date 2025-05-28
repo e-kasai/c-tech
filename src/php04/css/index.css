@@ -1,0 +1,42 @@
+.quiz-form{
+    max-width: 1230px;
+    border:2px solid red;
+}
+
+.answer-options{
+    max-width:500px;
+    height:300px;
+    margin:0 auto;
+    border:2px solid lightblue;
+}
+
+
+.answer-option-textbox{
+
+    height:50px;
+    margin-top:10px 0;
+    border:2px solid gold;
+    color: black;
+
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.answer-option-text{
+    border:1px solid  salmon;
+    color:black;
+    width: 500px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.submit-btn{
+    
+    width:500px;
+    height:40px;
+    margin-top:20px;
+    background: black;
+    color: white;
+}

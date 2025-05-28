@@ -1,0 +1,31 @@
+input[type="radio"] {
+    display: none;
+}
+
+.quiz-form__label{
+    display: block;
+    border:1px solid gray;
+    border-radius: 3px;
+    padding:12px 24px;
+    cursor:pointer;
+    margin:8px;
+    text-align: center;
+}
+
+.quiz-form__label:hover{
+    background: lime;
+}
+
+input[type="radio"]:checked + .quiz-form__label{
+    background: lime;
+}
+
+.quiz-form__items{
+    max-width: 400px;
+    margin:0 auto;
+    padding:40px 20px;
+}
+
+.quiz-form__item{
+    padding-bottom:5px;
+}

@@ -1,0 +1,33 @@
+.card-container{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    border: 2px solid red;
+    padding:20px;
+}
+
+.result-card{
+    width: 300px;
+}
+
+.image-box{
+    width: 100%;
+    height:160px;
+}
+
+.image-box img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border:2px solid greenyellow;
+}
+
+.result-text{
+    display: flex;
+    justify-content: space-between;
+    border:2px solid pink;
+}
+
+.result-text p{
+    font-weight: bold;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form action="result.php" method="POST">
+      <div class="form-group">
+        <label for="name">お名前:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+
+      <div class="form-group">
+        <span>ご希望商品:</span>
+
+        <label for="product_a">
+          <input type="radio" id="product_a" name="product" value="a" />
+          Aセット
+        </label>
+        <label for="product_b">
+          <input type="radio" id="product_b" name="product" value="b" />
+          Bセット
+        </label>
+        <label for="product_c">
+          <input type="radio" id="product_c" name="product" value="c" />
+          Cセット
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label for="qty">注文数:</label>
+        <input type="number" id="qty" name="qty" min="-1" max="10" step="1" value="-1" />
+      </div>
+
+      <div class="btn">
+        <button type="submit">送信</button>
+      </div>
+    </form>
+  </body>
+</html>

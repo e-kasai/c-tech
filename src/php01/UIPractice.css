@@ -1,0 +1,49 @@
+/* フッター全体 */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 20px;
+    font-family: sans-serif;
+}
+
+/* 上段：ロゴとナビ */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+/* ロゴ */
+.footer-logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ナビ（右寄せ） */
+.footer-nav {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer-nav li a:hover {
+    opacity: 0.7;
+}
+
+/* コピーライト */
+.footer-copy {
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+}
